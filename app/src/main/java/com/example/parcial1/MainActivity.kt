@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
             if (numero < 0 || numero > 100) {
                 Toast.makeText(this, "El numero no se encuentra dentro del rango!", Toast.LENGTH_SHORT).show()
                 Log.i("RANGO", "El numero no esta en el rango!")
-            } else if (esPrimo(numero)) {
+            } else if (!esPrimo(numero)) {
                 val intent = Intent(this, MainActivity2::class.java)
                 intent.putExtra("numero", numero)
                 startActivity(intent)

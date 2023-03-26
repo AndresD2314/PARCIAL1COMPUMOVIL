@@ -7,12 +7,12 @@ import android.widget.ListView
 
 class MainActivity2 : AppCompatActivity() {
 
-    private val lvDatos : ListView = findViewById(R.id.LvNumeros)
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main2)
-
+        val lvDatos : ListView = findViewById(R.id.LvNumeros)
         val arrayAdapter: ArrayAdapter<*>
         val arr = mutableListOf<Int>()
 
