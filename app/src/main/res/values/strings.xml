@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PARCIAL#1</string>
+    <string name="lista">LISTA</string>
+    <string name="ingrese_numero">Ingrese numero</string>
+    <string name="guardar">Guardar</string>
+    <string-array name="ejemplo">
+        <item>nombre</item>
+        <item>nombre</item>
+    </string-array>
+</resources>
